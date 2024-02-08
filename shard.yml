@@ -1,0 +1,17 @@
+name: snappy_example
+version: 0.1.0
+
+authors:
+  - Billy.Zheng <vil963@gmail.com>
+
+targets:
+  snappy_example:
+    main: src/snappy_example.cr
+
+dependencies:
+  snappy:
+    github: naqvis/snappy
+
+crystal: '>= 1.11.2'
+
+license: MIT
